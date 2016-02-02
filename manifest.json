@@ -1,0 +1,18 @@
+{
+	"manifest_version":2,
+
+	"name" : "GTmetrix analyzer plugin",
+	"description" : "this extension will analyze a page using",
+
+	"version" : "1.0",
+
+	"browser_action":{
+		"default_icon" : "icon.png",
+		"default_pop" : "popup.html"
+	},
+
+	// we need to have permissions to access the active tab 
+	"permissions" : {
+		"activeTab"
+	}
+}
